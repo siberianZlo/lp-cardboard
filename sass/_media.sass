@@ -1,0 +1,110 @@
+$var1: #ff9d00
+$var2: #373737
+@media (max-width: 576px)
+
+
+	.header
+		margin: 0px
+		padding: 8px 0px 8px 0px
+		&-logo 
+			background: url(../img/header-logo__mobile.png) center no-repeat
+			width: 35px
+			height: 35px
+			background-color: $var1
+			border-radius: 4px
+			display: inline-block
+		&__contacts 
+			&__phones
+				flex-direction: column
+			&__phone 
+				font-size: 14px
+				margin-right: 0px
+				border: none
+				&:hover 
+					color: $var3
+	.phone-1
+		padding-right: 0px
+	.hiden-mobile
+		display: none
+
+	.header-contacts__phones
+
+	.header__contacts__button 
+		display: inline-block
+		padding: 6px
+		width: 32px
+		height: 32px
+	
+		&:hover 
+			background-color: $var4
+			cursor: pointer
+	
+	.main
+		text-align: center
+		padding-top: 50px
+		&-text
+			&__title
+				font-size: 22px
+				color: $var1
+				line-height: 24px
+				margin-bottom: 7px
+			&__subtitle
+				font-size: 18px
+				line-height: 18px
+				margin-bottom: 40px
+			&_form 
+				background-color: transparent
+				padding: 0px
+	.form
+		display: block
+		&-title
+			line-height: 18px
+			padding-right: 0px
+			font-size: 15px
+			margin-bottom: 16px
+			&_uppercase
+				margin-top: 11px
+				font-size: 15px
+		&__input
+			text-align: center
+			width: 100%
+			max-width: 400px
+			height: 47px
+			display: block
+			margin: auto
+			margin-bottom: 13px
+		&-small
+			margin-left: 0px
+			font-size: 13px
+
+	.button_big
+		width: 180px
+		height: 51px
+		padding-left: 21px
+		padding-right: 21px
+		padding-top: 0
+		padding-bottom: 3px
+
+	.popup
+		width: 250px
+		&-title
+			font-size: 16px
+		&-form
+			padding: 5px
+	.popup-form-header
+		margin-top: 5px
+		font-size: 16px
+		line-height: 1.2
+	.popup-form__label
+		margin-top: 10px
+		font-size: 14px
+	.popup-form__input
+		margin-bottom: 10px
+		width: 90%
+	.popup-form__btn
+		margin-left: 0px
+	.popup-form__note
+		font-size: 12px
+		margin-bottom: 5px
+
+
